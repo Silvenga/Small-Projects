@@ -1,0 +1,22 @@
+﻿{
+    "Version": "1.0",
+    "SessionAttributes": {
+        "supportedHoriscopePeriods": {
+            "daily": true,
+            "weekly": false,
+            "monthly": false
+        }
+    },
+    "Response": {
+        "OutputSpeech": {
+            "Type": "PlainText",
+            "Text": "Today will provide you a new learning opportunity.  Stick with it and the possibilities will be endless. Can I help you with anything else?"
+        },
+        "Card": {
+            "Type": "Simple",
+            "Title": "Horoscope",
+            "Content": "Today will provide you a new learning opportunity.  Stick with it and the possibilities will be endless."
+        },
+        "ShouldEndSession": false
+    }
+}
