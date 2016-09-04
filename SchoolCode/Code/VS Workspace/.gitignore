@@ -1,0 +1,11 @@
+*~$$*.~*
+*.tmp
+*.git-log
+*.pdb
+obj
+bin
+.svn
+*.svn-base
+.metadata
+build
+packages

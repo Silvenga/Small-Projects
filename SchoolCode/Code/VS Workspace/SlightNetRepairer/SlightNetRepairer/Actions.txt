@@ -1,0 +1,10 @@
+﻿"C:\Windows\Temp\devcon.exe" disable PCI\VEN_8086*DEV_4238; Disabling Adapter
+"C:\Windows\Temp\devcon.exe" enable PCI\VEN_8086*DEV_4238; Enabling Adapter
+ping 8.8.8.8 -n 2; Waiting For Adapter
+ipconfig /release; Releasing DHCP Lease
+ipconfig /renew; Renewing DHCP Lease
+arp -d *; Flushing ARP Cache
+nbtstat.exe -R; Purging NBT Remote Cache
+nbtstat.exe -RR; Refreshing Registered NBT Names
+ipconfig /flushdns; Flushing DNS Cache
+ipconfig /registerdns; Registering With DNS

@@ -1,0 +1,1119 @@
+a50b242 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+51d14c0 Adds a few bootstrap classes that were missing (Bootstrap Update).
+ 2 files changed, 10 insertions(+), 10 deletions(-)
+0c22d81 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+9d219be README.md edited online with Bitbucket
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+09ec5f7 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+127e2e1 Really fixes RM-15165
+ 1 file changed, 119 insertions(+), 119 deletions(-)
+2f0cab8 Updates the readme file with information regarding publishing to environments and remote debugging.
+ 1 file changed, 54 insertions(+), 3 deletions(-)
+44a4caf Fixed RM-15165.
+ 3 files changed, 283 insertions(+), 277 deletions(-)
+61b0ad7 Fixes deletion page title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+56b912e Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ddfe5fb Swaps out in_progress const in onboard creation/deletion for enum.
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+fbff430 Fixes builds.
+ 1 file changed, 25 insertions(+), 36 deletions(-)
+e9667f7 Merge branch 'DEV-8954-intellisense-on-query-variables' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ae3d33c commented out IntelliSense for code freeze
+ 1 file changed, 5 insertions(+)
+becd76d Refactors UI for site copy progress during onboard creation
+ 2 files changed, 8 insertions(+), 20 deletions(-)
+d1b7a79 Refactors deletion page to conform with the new onboard creation page
+ 2 files changed, 172 insertions(+), 140 deletions(-)
+43f6a1e Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+988aed7 Fixes onboarding creation page
+ 2 files changed, 195 insertions(+), 230 deletions(-)
+7642ed4 Include conflict fix
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+02ce589 Layout changes for the 1st.
+ 7 files changed, 21 insertions(+), 13 deletions(-)
+fcc5a6b Add missing JQuery script.
+ 5 files changed, 1700 insertions(+), 2 deletions(-)
+892a592 Remove error messages. A1
+ 1 file changed, 4 insertions(+)
+ce165cc Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+bd61860 RM-15146. Fixed click event not fireing.
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+ac08cf6 variables table ui updates
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+a822e72 Refines styling for onboard creation and roles enumeration
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+7c53422 Finishes restyling for onboard creation page
+ 2 files changed, 52 insertions(+), 44 deletions(-)
+99ac73a Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+3ecc863 Broke onboarding styling so fixing it now.
+ 4 files changed, 160 insertions(+), 133 deletions(-)
+fdc92bd fixed shift 2 vs @ symbol in create query
+ 1 file changed, 7 insertions(+)
+3ca322f Merge branch 'DEV-7727-upgrade-bootstrap-to-version-3' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ae1f77a IntelliSense for variables added to create query
+ 3 files changed, 107 insertions(+), 55 deletions(-)
+603d761 Merge branch 'DEV-8682' into dev
+732ee06 DEV-8682 Complete
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+1cc174f SligtTables - Hide poperovers on click out, reset headers after resize is changed.
+ 1 file changed, 14 insertions(+)
+20efe6e Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8682
+f0f24ea Might have fixed RM-15125? We don't really know.
+ 2 files changed, 33 insertions(+), 74 deletions(-)
+83036fb first attempts and intellisence I have sucessfully been able to determine a @
+ 1 file changed, 24 insertions(+), 20 deletions(-)
+1e3f272 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8759
+9fd4e6d Fixed select2 and datetime issues.
+ 11 files changed, 125 insertions(+), 117 deletions(-)
+6d7b4f5 Refines cancel and looping mechanism for DNS cancellation
+ 1 file changed, 4 insertions(+), 11 deletions(-)
+82bb0c3 edit query is responsive again
+ 2 files changed, 19 insertions(+), 17 deletions(-)
+260919b Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8759
+862c312 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8682
+fb488bd More cleanup.
+ 51 files changed, 299 insertions(+), 1167 deletions(-)
+b4cdd55 Fixed things!! :D
+ 2 files changed, 21 insertions(+), 17 deletions(-)
+01451b9 Cleanup.
+ 34 files changed, 20 insertions(+), 5608 deletions(-)
+12bdf33 Merge branch 'DEV-7727-upgrade-bootstrap-to-version-3' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+e683eaa Got rid of database server functionality
+ 2 files changed, 35 insertions(+), 24 deletions(-)
+33062d8 Fixed merge issues.
+ 2 files changed, 64 insertions(+), 136 deletions(-)
+ee5f7e7 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8759
+29e2910 Added my tables, fixing issues with removing datatables.
+ 39 files changed, 2312 insertions(+), 1730 deletions(-)
+1256cce Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-15081-QueryPendingState
+804a338 RM-15081, added checks for varibables model null on EditQuery page. updated the QueriesDashboard to use the proper pending case.
+ 4 files changed, 5 insertions(+), 5 deletions(-)
+8cead38 fixed the weird double database server thing
+ 3 files changed, 30 insertions(+), 38 deletions(-)
+ea28bd1 DEV-8682 ready for testing, DNS Step will intentionally fail.
+ 3 files changed, 28 insertions(+), 13 deletions(-)
+19e0a62 Getting rid of database server
+ 2 files changed, 34 insertions(+), 22 deletions(-)
+6a8c3d4 Begins implementation of DEV-8682
+ 2 files changed, 49 insertions(+), 12 deletions(-)
+a2fd589 rid of comments
+ 1 file changed, 42 deletions(-)
+efeb4c5 Merge branch 'DEV-7727-upgrade-bootstrap-to-version-3' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+25fe930 Edit variable working!!!
+ 2 files changed, 46 insertions(+), 41 deletions(-)
+cc8559d Fixes RM-14978
+ 1 file changed, 26 insertions(+), 13 deletions(-)
+09d8959 variables super broken
+ 3 files changed, 67 insertions(+), 37 deletions(-)
+c3b84fa Adjusts default SqlGbWarning to 50
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+4a29600 Refactors sql connections to implement using blocks
+ 3 files changed, 68 insertions(+), 65 deletions(-)
+27f082f Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+5429ff7 Removes all js logging to the console.
+ 7 files changed, 2 insertions(+), 12 deletions(-)
+6a10722 database name should not start with numbers implemented
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+7d1d09a Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+4100e2e Fixed Broken Build Missing Viewbag in index for unit test
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+9427791 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7901
+63e49b8 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+2dc8b7d Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+c62fa9d Fixed RM-15044
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+618ba54 checkpoint
+ 1 file changed, 2 insertions(+)
+9cb88ec Modifies exception message for the sql disk space sanity check.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+1651199 Completes DEV-7901
+ 3 files changed, 37 insertions(+), 2 deletions(-)
+c3ed90b Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7901
+eed1b0a Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+40bfdff Merge branch 'RM-15023-database-names-are-not-allowing' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+7160971 database name now allows 0's
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dc0cd46 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+48af2f5 things
+ 2 files changed, 38 insertions(+), 9 deletions(-)
+1f9fa5b RM-15011. On a past the button disables till validated
+ 2 files changed, 20 insertions(+), 3 deletions(-)
+cb9f7ff Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+3f1087d Fixes enable elastic search bug where enabling will check to see if the company exists in the reporting_config table and will insert the record if it is not.
+ 2 files changed, 37 insertions(+), 22 deletions(-)
+6cc7c1f Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7901
+fe8a475 Adds warning to onboarding page and implements check for all onboarding servers.
+ 9 files changed, 110 insertions(+), 47 deletions(-)
+66a2b75 fixed it
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e081738 method return changed back to Query view
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+2eea89f fixed
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+58adc93 Adds code to extract the default data file locations and default log file locations from sql server along with the available space on each fixed drive.
+ 3 files changed, 42 insertions(+)
+86f653a Fixed compiler bitwise warning.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ba98a00 Reconstructed some dead tests.
+ 13 files changed, 110 insertions(+), 270 deletions(-)
+01ee100 Fixed more tests, cleanup.
+ 7 files changed, 37 insertions(+), 771 deletions(-)
+0473865 Fixed merge issues, fixed unit tests that were failing.
+ 6 files changed, 92 insertions(+), 89 deletions(-)
+3244b60 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+87a91e2 Integrated the serial into MrB. Fixing and refactoring the tests.
+ 70 files changed, 3214 insertions(+), 4900 deletions(-)
+1357ab6 DEV-8787. Fixed Folder deletion test.
+ 1 file changed, 2 insertions(+)
+098c942 RM-14776. Fixed company Feature button. Added company name to URL
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+77f53dd Fixes RM-14722
+ 1 file changed, 4 insertions(+)
+d551ca4 Removed database project.
+ 3 files changed, 5 insertions(+), 25 deletions(-)
+928519a Updates beta password in the keepass file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+a26ed27 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+666d992 Updates Neumont account password in the keepass file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ebf0773 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+f8309f3 Fixes RM-13671.
+ 3 files changed, 53 insertions(+), 29 deletions(-)
+69220dc commits before leaving
+ 4 files changed, 209 insertions(+), 382 deletions(-)
+7161f9c RM-14646. Added exception catch to folder creation fail
+ 3 files changed, 31 insertions(+), 23 deletions(-)
+8a83e6b Adds important button to footer on April Fools
+ 4 files changed, 18 insertions(+), 1 deletion(-)
+9cee794 RM-14722. Added wordwrap tag
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+0f196a3 Fixed errors in a couple of views.
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+7e4f827 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ee69bfb Fixes RM-14777.
+ 1 file changed, 64 insertions(+), 41 deletions(-)
+fb73c2c Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+259af3d Merge branch 'DEV-8506-mrb-log-who-initiated-an-onboar' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+1ee78c9 got rid of weird : on "New Application Session:"
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ac1d587 Merge branch 'prod' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+bba51a4 Patches the exception on customer dashboard page
+ 1 file changed, 3 insertions(+)
+6ffcf69 please don't break things proj file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+c1a61ed Commiting Csproj from dev
+ 2 files changed, 1 insertion(+), 13 deletions(-)
+91fc7d6 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+38f6f81 Fixes form styling on the app settings, web server, and connections pages
+ 5 files changed, 82 insertions(+), 70 deletions(-)
+1f8b2b6 Fixes form styling for creating and editing socket labs configurations
+ 1 file changed, 32 insertions(+), 32 deletions(-)
+fadb8f9 Removes duplicate emea entry from the keepass file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+eb94a8e Fix ignore file allowing publishing of Jar
+ 2 files changed, 2 insertions(+), 4 deletions(-)
+cedd3d1 DB2SiteCopy.jar delete from top level directory.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+5e7bb71 DB2SiteCopy.jar added to the project.
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+2ae2a9e changes
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+aead4c6 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+dff0b1d Added a parameter to logger.log method Added the current user.. so the current user could get logged
+ 14 files changed, 86 insertions(+), 70 deletions(-)
+2e485e0 Updates the neumont password for emea remote desktop login
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+b2f55bd Fixes RM-14900
+ 3 files changed, 28 insertions(+), 22 deletions(-)
+98a7022 Fixes RM-14896
+ 2 files changed, 12 insertions(+), 6 deletions(-)
+32edbea Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+214f770 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+c0c8fc6 Updates the readme with the correct information regarding the database project
+ 1 file changed, 11 insertions(+)
+fbdf3aa DEV-8616. Added Database project to main project
+ 2 files changed, 21 insertions(+), 5 deletions(-)
+4456eca Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+9a76685 Fixes RM-14867. Re-factored async method names.
+ 3 files changed, 85 insertions(+), 28 deletions(-)
+ba5f5d6 RM-14781. Image upload fix for custom images when onboarding.
+ 3 files changed, 52 insertions(+), 6 deletions(-)
+1202378 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+c8122b1 White Space
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+017463a Fixed missing ClrProvider on Beta and Demo.
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+23aae44 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+b0ef1a8 Updated version, added logging, re-enabled using api for ES.
+ 5 files changed, 14 insertions(+), 6 deletions(-)
+f75c91e Fixes RM-14775, company features list now flows top to bottom as it did before
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+c2feed1 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+1e4b063 Fixes RM-14821, site copy progress bar was broken due to the bootstrap update
+ 1 file changed, 6 insertions(+), 16 deletions(-)
+e788e65 Fixes RM-14776
+ 2 files changed, 19 insertions(+), 20 deletions(-)
+f919957 RM-14757. Make the company Refresh Config button reload the whole page.
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+a2a6862 README.md edited online with Bitbucket
+ 1 file changed, 17 deletions(-)
+a8f9afa Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+0d0ead6 README.md edited online with Bitbucket
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+fe3ad34 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+533d29c Fixed compile time csproj issue.
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+a4efa79 README.md edited online with Bitbucket
+ 1 file changed, 2 insertions(+)
+df90582 Fixes merge conflict with the DatabaseBuilder
+8e1dc5d Implements Fix for RM-14792, and also prevents possible SQL injection when creating the company db.
+ 2 files changed, 10 insertions(+), 42 deletions(-)
+d6a67d5 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+fe26893 Fixes RM-14760
+ 8 files changed, 46 insertions(+), 120 deletions(-)
+0111ad1 DEV-8285. Completion of summeries for all concrete repositores.
+ 9 files changed, 485 insertions(+), 13 deletions(-)
+5b5522f Comments out method for testing on the HomeController
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+4432dc3 Adds code to pull growth rates from the model db and set them on the new company db, using the sql smo library
+ 2 files changed, 84 insertions(+), 1 deletion(-)
+df92072 Attemps to test RM-14031. unsuccessful. looking at old code on Roles that should account for the new tests.
+ 1 file changed, 46 insertions(+), 3 deletions(-)
+e780b60 eofihoueh
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+2e5813d Adding scrolling for database table help. .. not complete yet
+ 5 files changed, 376 insertions(+), 5 deletions(-)
+9971499 DEV-8285. App Repository documented
+ 1 file changed, 278 insertions(+), 187 deletions(-)
+f1380c6 DEV-8285. Documentation on all methods for AllegianceRepository
+ 1 file changed, 151 insertions(+), 11 deletions(-)
+6f7e4bc Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+48fc229 Really fixed RM-14760.
+ 1 file changed, 23 insertions(+), 45 deletions(-)
+fd5e41b Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+8e327d3 RM-14755. New jquery function used instead of onsumbit in the form action.
+ 2 files changed, 22 insertions(+), 8 deletions(-)
+d7b7cc7 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+55817fb Set and get Elastic directly.
+ 3 files changed, 30 insertions(+), 47 deletions(-)
+9ef4720 you know.. progress
+ 2 files changed, 17 insertions(+), 15 deletions(-)
+b39aa48 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ec290f4 white space
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+b923f1f Fixes: RM-14741
+ 1 file changed, 8 insertions(+), 9 deletions(-)
+551075c I really didn't want to commit this but I need to change branches... I hope this doesn't break things
+ 6 files changed, 86 insertions(+), 79 deletions(-)
+31e77dc Fixed get validation issues with IIS scan.
+ 3 files changed, 19 insertions(+), 20 deletions(-)
+0e81ad9 Fixed compile time issue with smo.
+ 3 files changed, 2 insertions(+), 87 deletions(-)
+38207ff Merge branch 'beta' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+390fc3a Using local smo.
+ 4 files changed, 15 insertions(+), 27 deletions(-)
+a6c07bf Version should in the project, just not in the repo.
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+5ba5cb3 DEV-8285. Begining of documentation for Concrete Repositories.
+ 1 file changed, 56 insertions(+), 1 deletion(-)
+3b3057d RM-14736. Scheduled Reports updated view resolves re-draw/missaligned columns.
+ 2 files changed, 121 insertions(+), 88 deletions(-)
+7f21e62 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+c61b539 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+dbdebad Removes the jar files from the Models directoyr
+ 5 files changed, 1 insertion(+), 6 deletions(-)
+728c233 Fixes dll issues.
+ 4 files changed, 48 insertions(+), 48 deletions(-)
+5ac8345 Unhides the show old company image button on the onboard configuration page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+05621e6 Merge branch 'beta' of bitbucket.org:allegiance_scm/mrbigglesworth into beta
+0b2843d Added smo.
+ 7 files changed, 31 insertions(+), 5 deletions(-)
+603b19f Messing with Tables.
+ 3 files changed, 78 insertions(+), 3 deletions(-)
+9b04760 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+03962f5 README.md edited online with Bitbucket
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ac99da4 auto columns
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+1493f34 validation query stuff
+ 2 files changed, 45 insertions(+), 36 deletions(-)
+8b68835 select query type
+ 3 files changed, 94 insertions(+), 31 deletions(-)
+b317617 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+bc32ff1 Fast save.
+ 6 files changed, 112 insertions(+), 21 deletions(-)
+4095ec6 radio button combo box auto fill fixed
+ 3 files changed, 14 insertions(+), 4 deletions(-)
+3159dea radio button
+ 4 files changed, 55 insertions(+), 31 deletions(-)
+183352d Test cases for invalid appsettings
+ 1 file changed, 12 insertions(+)
+0dfdaf3 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+5da24bd refactoring create query page
+ 4 files changed, 25 insertions(+), 34 deletions(-)
+69ffc79 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+9923ba6 README.md edited online with Bitbucket
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ab62352 README.md edited online with Bitbucket
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+eab9e6d Merge branch 'dev' into qa
+47eed59 Fixes merge conflict
+ffeb046 Fixes duplication validation variables getting added when saving an approved query
+ 4 files changed, 18 insertions(+), 26 deletions(-)
+daa6973 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+614ca67 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+c599849 Version Number
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+99a861d Version
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+586c855 DEV-4676. Logs removed
+ 6 files changed, 26 insertions(+), 35 deletions(-)
+4668fdc Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+2bf6765 DEV-4676. Proc mgt_Get_Total_Responses updated to reflect required information.
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+09e9657 README.md edited online with Bitbucket
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+df9ea20 RM-14638. Changes across database have been reflected in code aswell as needed updates to all environments.
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+d545d12 Merge conflict
+11d0c31 Adds the submit button back to the onboard configuration page
+ 2 files changed, 6 insertions(+), 3 deletions(-)
+6cb9315 Create Query help added for variables
+ 2 files changed, 12 insertions(+)
+6dcc8e2 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+fb8afd8 Fast Save
+ 3 files changed, 9 insertions(+), 2 deletions(-)
+0ec9cba Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+c365a9c Some broken code.
+ 2 files changed, 87 insertions(+), 11 deletions(-)
+2e03d7d create query help is perfect
+ 3 files changed, 19 insertions(+), 33 deletions(-)
+e531039 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+0a4db7c Create Announcement changes.. fixed error messaging added dates must correlate all that's left is to make the dates stay in MM/DD/YYYY format for example have 01/01/2015 over 1/1/2015
+ 2 files changed, 72 insertions(+), 16 deletions(-)
+50496a8 Merge branch 'dev-editQueries' into dev
+dee9ee7 Completes implementation of approval and denial of queries on the manage queries page.
+ 4 files changed, 21 insertions(+), 64 deletions(-)
+bafa957 Fixes temp query deletion upon saving an approved or denied query
+08718c6 Forgot the gitnore.
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+6ed8e19 Version is generated on build and added to footer.
+ 5 files changed, 49 insertions(+), 3 deletions(-)
+7a231c4 Added default version.
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+1b4c310 Updates the query status when editing a pending query
+ 6 files changed, 90 insertions(+), 35 deletions(-)
+8cdb62d Fast save
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+5804251 Updated gitnore.
+ 2 files changed, 12 insertions(+)
+1c3ea55 Added smo DDL's.
+ 6 files changed, 30 insertions(+)
+5ecb795 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+bcb6090 Fixes RM-14485.
+ 12 files changed, 57 insertions(+), 683 deletions(-)
+f74ba3a getting rid of console logs
+ 1 file changed, 1 deletion(-)
+359db06 DEV-4676. SQL scripts added for stored proc
+ 1 file changed, 36 insertions(+)
+ad25441 Update for running queries
+ 5 files changed, 18 insertions(+), 30 deletions(-)
+0778fa2 create query
+ 3 files changed, 145 insertions(+), 64 deletions(-)
+15532a6 DEV-4676. Company Total Responses now viewable *Accurate* on Customer Dashboard
+ 3 files changed, 41 insertions(+), 12 deletions(-)
+0cfdbf5 Adds Tim's changes to approval status on queries
+ 14 files changed, 97 insertions(+), 166 deletions(-)
+9e9c68c Merge branch 'dev-editQueries' of bitbucket.org:allegiance_scm/mrbigglesworth into dev-editQueries
+80c8801 Fixed varaibles saving
+ 3 files changed, 51 insertions(+), 15 deletions(-)
+20e7b41 Merge branch 'dev-editQueries' of bitbucket.org:allegiance_scm/mrbigglesworth into dev-editQueries
+b0d9b7f Fixes query variable deletion on the edit query page
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+59a55c6 Added remote deploy for qa.
+ 2 files changed, 75 insertions(+), 1 deletion(-)
+b3a8dfc Merge branch 'dev-editQueries' of bitbucket.org:allegiance_scm/mrbigglesworth into dev-editQueries
+16407c7 varaibles works
+ 1 file changed, 28 insertions(+), 10 deletions(-)
+083f9a2 Prevents the bad input alert from showing multiple times on edit query page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+b1274b6 Modified Queries successfully saving to temp db
+ 1 file changed, 6 insertions(+)
+de71548 Merge branch 'dev-editQueries' of bitbucket.org:allegiance_scm/mrbigglesworth into dev-editQueries
+9eacd89 Implements update logic for editing queries
+ 2 files changed, 39 insertions(+), 17 deletions(-)
+15eef0e Changes to the way apprepo is accessed
+ 7 files changed, 481 insertions(+), 456 deletions(-)
+65e6593 Swaps out FormCollection for EditQueryModels and refactors AppRepository to dispose of context in the same method it was used.
+ 13 files changed, 734 insertions(+), 512 deletions(-)
+ce1cde3 buttons small
+ 2 files changed, 17 insertions(+), 14 deletions(-)
+0330102 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+476bd70 Create Query Ui Updates
+ 2 files changed, 96 insertions(+), 93 deletions(-)
+11ba3d5 Fixed RM-14482, again...
+ 5 files changed, 81 insertions(+), 60 deletions(-)
+4c0f737 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+08fab84 Fixed the bug of many semi-colons.
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+a2e2c29 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+81d9013 replaced type=date with date picker on text boxes on create announcement
+ 2 files changed, 14 insertions(+), 7 deletions(-)
+b11ebbb Fast save.
+ 1 file changed, 134 insertions(+), 115 deletions(-)
+61d9695 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into qa
+801e642 Fix for wrapping issues on Serial Generation validation.
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+c13e015 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+0937d45 Edit query page complete
+ 3 files changed, 52 insertions(+), 19 deletions(-)
+71434c8 Just a variable fix. Yes Mark force is now used instead of that hardcoded false. True it will never run if true, but lets not hardcode just for that reason. Maintain readability.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+66fa48a Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+2d14c0e Edit Query page nearly complete, only need to implement adding query variables
+ 8 files changed, 194 insertions(+), 139 deletions(-)
+0114210 asp upgrade combo box fix
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ddb50b8 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+08e7fe1 trying to fix loading
+ 1 file changed, 79 insertions(+), 79 deletions(-)
+b29be6c Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+e9c5824 Fixed nullpointer in session end, fixed missing logical paths during onboarding.
+ 3 files changed, 10 insertions(+), 6 deletions(-)
+6ec6fa8 getting rid of validation messages (it was something that I was working on that failed)
+ 1 file changed, 2 insertions(+), 10 deletions(-)
+3919a46 onboarding error messages
+ 1 file changed, 10 insertions(+), 4 deletions(-)
+e8c7e3c Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+8b6d10f loader
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+b184d92 Auto fill last announcement.
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+89c7374 Change of focus on login. Simple Enter will now login appon loading the page.
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+99fda8f Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+324d4e3 Hacks for Datatables.
+ 3 files changed, 4 insertions(+), 5 deletions(-)
+1267073 Merge branch 'DEV-7727-upgrade-bootstrap-to-version-3' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+3ba4206 temp hot fix
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+3c39060 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+d874891 RM-14478. InquisiteXMLSearch for customers, corrected spacing on header lines.
+ 1 file changed, 1 insertion(+)
+c8371da Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+6fc7ab3 Removed debugged lines.
+ 3 files changed, 13 insertions(+), 10 deletions(-)
+bc00638 RM-14478. InquisiteXMLSearch format for rows fix, line spacing corrected for FAQItems on the same page.
+ 2 files changed, 220 insertions(+), 229 deletions(-)
+703739e Fixes for reauth not reauthing. Might fix RM-14534.
+ 6 files changed, 81 insertions(+), 43 deletions(-)
+4eec0f3 Forgot some files.
+ 6 files changed, 980 insertions(+), 515 deletions(-)
+6635fd3 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+96d224d Trying to get datatables working
+ 8 files changed, 195 insertions(+), 82 deletions(-)
+aa3b41b Fixes Linq expression for query variables, rearranges edit query variables popup
+ 8 files changed, 50 insertions(+), 43 deletions(-)
+0c1eecd DEV-7727. Fixed company url when onboarding. Hightlighting of menu bar.
+ 4 files changed, 14 insertions(+), 8 deletions(-)
+b18a29f Fixes csproj file
+1908c16 Edit Query page nearly completed, only have query variables left
+ 11 files changed, 301 insertions(+), 238 deletions(-)
+c48e161 DEV-7727. ScheduledReports nolonger displays a second row for empty cells. toggeling the row visibility resulted in a second draw call, an addition perameter to fnSetColumnVis(colnum, visibility, redraw) corrected the issue.
+ 2 files changed, 19 insertions(+), 16 deletions(-)
+5fe191f DEV-7727. Form submit button inline with other fields.
+ 1 file changed, 15 insertions(+), 17 deletions(-)
+41df16c Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+95b97e2 hmm
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+c77c0c3 hmm
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+99e25cd DEV-7727. Feedback button submit fixed
+ 5 files changed, 76 insertions(+), 14 deletions(-)
+5f47161 Fixed RM-14008... again.
+ 7 files changed, 113 insertions(+), 115 deletions(-)
+65be427 View Tables.. quick search
+ 1 file changed, 10 insertions(+), 8 deletions(-)
+659cb6b Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+e30121c get rid of error message
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+8d1d264 product announcement
+ 3 files changed, 19 insertions(+), 16 deletions(-)
+b34b838 DEV-7727. Fix "No Results Found!" on InquisiteXMLSearch page.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+66d578b Additional changes to Alerts page, when a survey has not name "Uknown survey name-" surveyID.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e735069 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+729a412 Removes logging from the datatable view
+ 1 file changed, 3 deletions(-)
+5c8aa6e Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+b3a4a5d what?
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+c1cc4b2 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+7c56b79 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+149b4a2 Loggin required fields for username and password.
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+c7b1d0a Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+eb7a76b create announcment
+ 4 files changed, 76 insertions(+), 43 deletions(-)
+2b4ecee Fixed dup login page.
+ 2 files changed, 3 insertions(+), 10 deletions(-)
+6bfb569 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+f2505d6 Fixed some style issues with Accounts.
+ 2 files changed, 288 insertions(+), 298 deletions(-)
+ed6b6df RM-14478. Username selection for addUser has been corrected for an empty username.
+ 4 files changed, 10 insertions(+), 7 deletions(-)
+5200040 Adjustments to dataTables styles
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+77d92f3 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+1f7c701 Adjust table styling for query results and datatables
+ 3 files changed, 4 insertions(+), 13 deletions(-)
+d118c4e Fixes table layouts on customer dashboard and query results
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+2c241ed Finished up with auth.
+ 3 files changed, 5 insertions(+), 130 deletions(-)
+64f592b Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+1e49b4c Fixes for most controller auth issues.
+ 23 files changed, 552 insertions(+), 562 deletions(-)
+4a5f099 RM-14478. Alerts forms converted to form-group for bootstrap 3.0
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+5fc363f Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+8a2675c Some more fixes.
+ 6 files changed, 568 insertions(+), 336 deletions(-)
+cd4628b RM-14478. Alerts invalid survey name results in "Unknown Survey name" as the survey name
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+a21e7a8 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+7d1cc03 Swaps query and variable column, and adds extra check for whitespace on the validation query name
+ 1 file changed, 27 insertions(+), 27 deletions(-)
+a69a0c3 RM-14478. Default Logo and custom logo enabled for onboarding a company.
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+acc8176 Merge branch 'DEV-7727-upgrade-bootstrap-to-version-3' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+a1a67da DEV-7727 Changes regarding J's comments.
+ 5 files changed, 7504 insertions(+), 10538 deletions(-)
+0b9c00e Removes ability to click out of reauth modal
+ 1 file changed, 5 insertions(+), 13 deletions(-)
+c7e4760 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+17d572d Adds per page select to query page
+ 3 files changed, 16 insertions(+), 8 deletions(-)
+43f2bd5 Progress on editquerypage
+ 3 files changed, 28 insertions(+), 2 deletions(-)
+e4c4247 formatting
+ 1 file changed, 14 insertions(+), 15 deletions(-)
+e6a6a5c configure modle
+ 1 file changed, 439 insertions(+), 418 deletions(-)
+ebd6664 Adds styling for displaying the sql for a query properly, and prepopulates the rerun query form on the query results page.
+ 6 files changed, 43 insertions(+), 16 deletions(-)
+3011d11 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+5955e11 styling changes log on partial
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+1b23f59 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+86ea374 Integrated managed serial generation into UI.
+ 20 files changed, 1271 insertions(+), 1281 deletions(-)
+5fc0900 Fixes validation variables so that they show on run query partial, and adjusts ContactLoginAccess popup during onboarding
+ 4 files changed, 6 insertions(+), 10 deletions(-)
+280b73b Cleans up Product announcement page and script
+ 3 files changed, 14 insertions(+), 19 deletions(-)
+e61de24 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ed56ede Fixes the modal on the create queries page
+ 2 files changed, 63 insertions(+), 21 deletions(-)
+791ebe1 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+3303079 Progress on edit query page
+ 12 files changed, 277 insertions(+), 728 deletions(-)
+dd5fee0 Fixes add user and edit user forms
+ 2 files changed, 40 insertions(+), 44 deletions(-)
+0bfebed Alerts form upgraded to Bootstrap 3.0 forms
+ 1 file changed, 55 insertions(+), 49 deletions(-)
+baf7f1f Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+e680bd8 Fixed some menu issues.
+ 7 files changed, 463 insertions(+), 6834 deletions(-)
+3945972 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+6cfdf19 Fixes add roles and update roles forms
+ 3 files changed, 84 insertions(+), 116 deletions(-)
+1380a2b SocketLabsConfiguration page updated on Delete, Edit, and New. Using proper form-groups. Also Changes to Remove Company forms.
+ 4 files changed, 164 insertions(+), 151 deletions(-)
+8042381 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+2616aa6 More test coverage.
+ 2 files changed, 88 insertions(+), 5 deletions(-)
+30c9458 log in
+ 2 files changed, 12 insertions(+), 6 deletions(-)
+febd74c Fix to Customer Dashboard. Company Select nolonger refreshes dropdown once a company has been selected.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+f995f57 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+18aee25 Fix for claire
+ 3 files changed, 43 insertions(+), 2 deletions(-)
+12407f7 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+d992a6a RM-14432. Adjust to SQL.Int type for UpdateToSubsrciption. Still have know idea how Alerts page should work
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+79bdbe8 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+d9db549 comments out the broken code in dev
+ 7 files changed, 144 insertions(+), 6 deletions(-)
+80e2258 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+59c2e78 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+fe9dc7a New project for models to be used for transitioning between domain and main easily
+ 8 files changed, 203 insertions(+), 40 deletions(-)
+4ea1ee9 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+4fd15ee Fixes modals on the customer dashboard page
+ 4 files changed, 47 insertions(+), 56 deletions(-)
+5c38265 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+024cfab Progress on the edit query page, upgrading it to bootstrap 3
+ 6 files changed, 255 insertions(+), 157 deletions(-)
+a1d9837 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+865361e Finished converting the pascal code to C#.
+ 10 files changed, 431 insertions(+), 379 deletions(-)
+391d9f7 Fixes error modal on the company deletion processing view
+ 2 files changed, 16 insertions(+), 44 deletions(-)
+974c53a Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+8c498d0 Removes session timeout used for testing
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e9aeb9f Fixes modal on onboarding, and reauth modal
+ 5 files changed, 72 insertions(+), 67 deletions(-)
+272f6e2 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14432
+2b7e1b7 RM-14432 page no longer throws exception. However i'm not sure what page functinality should be.
+ 12 files changed, 446 insertions(+), 33 deletions(-)
+3de06c6 log in repositioned
+ 4 files changed, 17 insertions(+), 19 deletions(-)
+3dad09e Fixes the modals on the configurations pages
+ 5 files changed, 342 insertions(+), 327 deletions(-)
+828e482 log in inline
+ 4 files changed, 47 insertions(+), 80 deletions(-)
+6d2e53b Fast Save
+ 29 files changed, 3005 insertions(+), 19 deletions(-)
+63ce525 Resolved merge conflict
+2f6bef5 Fixes the modals on FAQ and SocketLabs Config
+ 3 files changed, 28 insertions(+), 26 deletions(-)
+b9d2518 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+35fb8c8 Fixed controls for most datatables
+ 11 files changed, 31 insertions(+), 12 deletions(-)
+c6f2398 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+e0607d4 Fixes modals on onboard deletion, and onboard configuration
+ 3 files changed, 160 insertions(+), 129 deletions(-)
+a7acfc1 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ccdd57b Fix for select2 list not properly displaying on the customer dashboard page
+ 5 files changed, 87 insertions(+), 80 deletions(-)
+a4631db Updates modal on queries and query results to use new load partial view ajax script
+ 2 files changed, 4 insertions(+), 46 deletions(-)
+b7ba11d Moved web into libs
+ 3 files changed, 10256 insertions(+), 1 deletion(-)
+be4015f copy local to true for system web mvc
+ 2 files changed, 9 insertions(+), 2 deletions(-)
+488fafe Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+fff12ff Fixes modals on query results
+ 1 file changed, 1 deletion(-)
+dd29520 Fixes modal on queries page, query results page, users, and roles. Also adds a script to clean up loading a partial view into a modal via ajax
+ 10 files changed, 98 insertions(+), 113 deletions(-)
+19b4bcd merged claires dev bootstrap version 3 branch into dev
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+2327eaa merged claires
+ba4c00a drop down on onboarding fixed
+ 2 files changed, 9 insertions(+), 11 deletions(-)
+15c1c7c Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+8beb771 menu done!
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+b184786 Resolved conflicts from merge with dev
+d17b47d Merged query models into one new model that is easier to follow
+ 41 files changed, 204 insertions(+), 181 deletions(-)
+96ad21b menu better.. now just need to collapsed differences
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+f7eeebe menu upgrades.. not even close to done yet though
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+0f51879 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+0f48106 Merge branch 'DEV-7882' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+3a152fa DEV-7882 Resolved. Forgot to add the files...
+ 3 files changed, 7 insertions(+), 16 deletions(-)
+9c277af DEV-7882 Resolved. Sanity check Onboarding of a company now displays a commit dialog regarding not appearing in the ContactLoginAccess table.
+ 1 file changed, 23 insertions(+)
+7e36f3c Fixes rerun query
+ 5 files changed, 45 insertions(+), 22 deletions(-)
+9caec92 Updates styling for queries for bootstrap
+ 3 files changed, 24 insertions(+), 18 deletions(-)
+12921b6 Adjusts DOM structure to accomadate bootstrap 3 and removes bad styling for modals and tabs.
+ 4 files changed, 107 insertions(+), 216 deletions(-)
+448502f global refactors in controllers and repositories for queries
+ 11 files changed, 58 insertions(+), 31 deletions(-)
+778ea54 site text-* fixes.. removed font-size
+ 1 file changed, 6 deletions(-)
+002e3f8 onboarding url and database validity
+ 4 files changed, 277 insertions(+), 191 deletions(-)
+bb56b40 Resolves merge conflicts
+38afd2e Fixes merge conflict
+9ae4cd8 Fixes favoriting bug
+ 2 files changed, 127 insertions(+), 106 deletions(-)
+7695372 Queries fully updated
+ 5 files changed, 12 insertions(+), 16 deletions(-)
+5db95ee container changes
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+515ce04 When the queries page has an error it now properly shows the error and not other things.
+ 13 files changed, 79 insertions(+), 59 deletions(-)
+dfe366c README.md edited online with Bitbucket
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+6316a06 README.md edited online with Bitbucket
+ 1 file changed, 11 insertions(+)
+68cf23f DEV-8026. Format improved to reflect addition of Bootstrap 3.
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+305a7d1 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+fd34848 Adds query errors alert to query results page
+ 2 files changed, 78 insertions(+), 49 deletions(-)
+352dae5 Admins can only view pending and denied queries
+ 3 files changed, 36 insertions(+), 39 deletions(-)
+33b4b47 DEV-8026 Merged to Dev, conflict on deletion will advice other party of fix.
+89ae6e7 Refactors in QueryController, looking into changing privileges for qho can see queries
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+10e969c Validation parameters should now show when running a query.
+ 2 files changed, 9 insertions(+), 34 deletions(-)
+0b97997 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+4146f3a Sortable favorites
+ 3 files changed, 9 insertions(+), 6 deletions(-)
+9be1409 Validation tab removed from queries with no validation query
+ 1 file changed, 72 insertions(+), 45 deletions(-)
+484e897 Swaps out saved search in top nav for new queries page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dfa063b Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+db4e916 Completes CSV export for query results
+ 3 files changed, 35 insertions(+), 30 deletions(-)
+e842470 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+0aa9b4f Hot Fix
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+34a4495 Refactor for favorite queries
+ 4 files changed, 8 insertions(+), 3 deletions(-)
+a3c383f domain colors
+ 3 files changed, 4 insertions(+), 6 deletions(-)
+97d52f0 DEV-8026. Added addition text to view for messages.
+ 1 file changed, 4 insertions(+)
+2f2302f log in
+ 1 file changed, 1 deletion(-)
+7243057 log in
+ 3 files changed, 66 insertions(+), 44 deletions(-)
+4598e14 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+716876c Fixed merge conflicts
+b9d51f4 Changed Query page to use new ViewModel
+ 10 files changed, 142 insertions(+), 49 deletions(-)
+8e062c6 Cleans up QueryController js and QueryController filter by status select box.
+ 2 files changed, 35 insertions(+), 34 deletions(-)
+49e534d colots
+ 1 file changed, 2 insertions(+)
+5215acb menu colors
+ 2 files changed, 36 insertions(+), 16 deletions(-)
+87f7a4c help pages
+ 3 files changed, 12 insertions(+), 9 deletions(-)
+84d7203 Preps Query View for Favorited Property
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+0fd6425 relaease log
+ 2 files changed, 20 insertions(+), 9 deletions(-)
+3172f5b Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+d2edf6d Adds spinner for loading the run query partial view
+ 2 files changed, 9 insertions(+), 2 deletions(-)
+032293c Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+5dce960 ScheduledReports.cshtml
+ 2 files changed, 20 insertions(+), 15 deletions(-)
+d579161 DEV-8026. Email has been setup such that any errors are included in the message. Also an AppSetting "OnBoardDeleteEmail" has been added to allow for a unique email to be used in each environment.
+ 2 files changed, 25 insertions(+), 9 deletions(-)
+1c7daaf Fixes merge conflicts
+9f3c14d Front end complete for Favorite Queries
+ 4 files changed, 50 insertions(+), 5 deletions(-)
+0834062 Update for dynatable on the Query page
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+20a0d3c Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+c524076 Query sorting on approval status now works
+ 3 files changed, 63 insertions(+), 19 deletions(-)
+f849945 DEV-8026. Delete reorder on DevMrb running as intented. Change to TempFile delete order was needed.
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+5f30b1f DEV-8026. Added ability to email when a company is deleted. Still untested
+ 2 files changed, 30 insertions(+), 1 deletion(-)
+1f0e0b3 Regarding DEV-8026. Reorder of onboard methods
+ 1 file changed, 18 insertions(+), 14 deletions(-)
+f95612c Refactors favorite query to use toggle favorite query stored procedure
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+b3e4aed Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+3b16f8d Adds the edit link
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+0b981bd Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+4be8b21 Fixed css for the dynatables to not show white text on a white background on hover and implemented the functionality for all the buttons on the RunQueryResults page
+75d2be6 Implements deletion on query listing
+ 1 file changed, 32 insertions(+), 3 deletions(-)
+92c1105 Resolved conflict
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+3f48cd1 configeration studff
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+acba39b mrb conection strings
+ 2 files changed, 23 insertions(+), 13 deletions(-)
+e592e24 Added Query Results csv export to the QueryController
+ 5 files changed, 25 insertions(+), 26 deletions(-)
+5d31023 Adds run query again modal
+ 3 files changed, 46 insertions(+), 31 deletions(-)
+15615b9 server modal
+ 2 files changed, 9 insertions(+), 4 deletions(-)
+7273c89 socket lab server
+ 2 files changed, 8 insertions(+), 3 deletions(-)
+e4f6e7e Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+25ed29c Improves Query and Query Results UI
+ 2 files changed, 21 insertions(+), 11 deletions(-)
+1d83d0a css for tables
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+f13d44c Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+e18c17b mrB configuration
+ 3 files changed, 81 insertions(+), 41 deletions(-)
+a3ea038 Results column should not show for each result
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+ccbecc5 DEV-8034. JSon Object now stored for variables.
+ 5 files changed, 11 insertions(+), 11 deletions(-)
+a3db441 onboard configuration
+ 1 file changed, 179 insertions(+), 155 deletions(-)
+5ab121e RunQueries works with the new implementation of the Query system
+ 7 files changed, 40 insertions(+), 24 deletions(-)
+3e4f9d9 Create Announcement
+ 2 files changed, 95 insertions(+), 39 deletions(-)
+32da458 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+e81947e Refactor for runquery parameters
+ 5 files changed, 32 insertions(+), 21 deletions(-)
+4e4a655 Implements view for QueryResults
+ 1 file changed, 59 insertions(+), 3 deletions(-)
+c415ca3 log in page
+ 1 file changed, 38 insertions(+), 13 deletions(-)
+ec99ab2 error page customer dashboard feedback partial
+ 4 files changed, 64 insertions(+), 29 deletions(-)
+25552a8 EditorFor the parameters when going to run a query have been added
+ 7 files changed, 46 insertions(+), 27 deletions(-)
+0b23ff2 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+ba90914 inquisite search
+ 2 files changed, 21 insertions(+), 12 deletions(-)
+02e4ce4 Resolved errors with not having a runquery partial view anymore
+ 2 files changed, 6 insertions(+), 7 deletions(-)
+8807d5d Changed RunQueryPartialView to use model
+ 6 files changed, 29 insertions(+), 44 deletions(-)
+18e2b35 Fixed setup method that uses the onboardconfigrepo
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+6daf511 Renamed the QueriesController to the QueryController and added the RunQuery method. This method still needs to have a return value but Jeff Linton will need to have input on this.
+ 13 files changed, 594 insertions(+), 405 deletions(-)
+f33b265 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+5ac84d0 Refactoring in tests
+ 5 files changed, 10 insertions(+), 28 deletions(-)
+ff849da Fixed css for icons on new queries page
+ 3 files changed, 19 insertions(+), 7 deletions(-)
+9e9826f Begins implementation of RunQuery action
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+1aab8ae Tests for DEV-8034.
+ 2 files changed, 101 insertions(+), 1 deletion(-)
+e599df7 queries dashboard
+ 1 file changed, 26 insertions(+), 5 deletions(-)
+44728d4 simple search
+ 2 files changed, 40 insertions(+), 29 deletions(-)
+f27f0c9 Updates inputId variable names according to resharper suggestion
+ 3 files changed, 54 insertions(+), 6 deletions(-)
+c281358 Adds Documentation to QueriesController and removes logging from view
+ 3 files changed, 33 insertions(+), 11 deletions(-)
+8c73adb Create Query Page
+ 4 files changed, 84 insertions(+), 53 deletions(-)
+7021fb8 Fixes Merge Conflict
+5f3f40d Completes RunQueryPartial view
+ 6 files changed, 91 insertions(+), 23 deletions(-)
+8d86149 Stylin changes to queries
+abc7072 Styling works
+ 4 files changed, 41 insertions(+), 22 deletions(-)
+26cd3e9 Query search case insensitive
+ 1 file changed, 21 insertions(+), 12 deletions(-)
+43bb827 Added old serial generator code.
+ 6 files changed, 1491 insertions(+)
+a22e1d0 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+69ea140 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+a73c5f8 Fixed SOMEONE's commit.
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+6ffd091 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+043920a Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+f738759 Merge branch 'dev' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+02a2709 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+953fa36 Resolved conflicts when merging with DevMrb
+e6349c8 Merged DevMrb
+ 1350 files changed, 1001930 insertions(+)
+d065e5a Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+7b06852 Created QueriesHelper, implements helper methods for the QueriesController and is used to create and manage models to and from the queries controller
+ 6 files changed, 288 insertions(+), 26 deletions(-)
+aa5483c Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+5881244 Adds query status to QueriesController
+ 3 files changed, 38 insertions(+), 5 deletions(-)
+5ff2d49 DEV-8034. Spelling Error
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+f5780b8 Merge branch 'RM-14237' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-14237
+e2d39a6 FavoriteQuery and ExportQueryCsv methods added to query controller
+ 1 file changed, 54 insertions(+)
+fefa961 Implements ajax to retrieve run query partial
+ 3 files changed, 49 insertions(+), 5 deletions(-)
+225c46c Wrote more of the WriteFileText method for the QLicenseMgr
+ 1 file changed, 22 insertions(+)
+356383a Moved GenerateJarArguments to OnboardHelper
+ 6 files changed, 69 insertions(+), 25 deletions(-)
+0af8b8e Begins implementation of new Queries Controller
+ 8 files changed, 1919 insertions(+), 1 deletion(-)
+024deda not done yet .. Create Query
+ 2 files changed, 121 insertions(+), 96 deletions(-)
+fdf7213 Merge branch 'DEV-8034' of bitbucket.org:allegiance_scm/mrbigglesworth into dev
+ab2c2fd Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+ae59ea7 Fixed Tim's horrible formatting.
+ 1 file changed, 247 insertions(+), 520 deletions(-)
+03171fe Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+8c622b0 Attempting default log.out file for site copy jar file arguments
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+3bc4913 Logs
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+cfda122 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+f5068f9 Merge branch 'DEV-8034' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+35b288a Merged changes with Marks changes to the error handling of db2sitecopy
+ 1 file changed, 26 insertions(+), 25 deletions(-)
+ed7bf87 Fixed merge conflicts with onboardcontroller
+9963a42 Refactor dbSiteCopy.jar
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+ba1554f Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+29be356 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+d3c2caa QLicense Manager
+ 1 file changed, 92 insertions(+), 67 deletions(-)
+753a855 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8034
+85449b2 Fixes RM-14278. Onboarding aborts steps if their deps fail. Further exception handling during creation steps.
+ 5 files changed, 234 insertions(+), 213 deletions(-)
+6b1e94d More error handling for exceptions in onboarding
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+14a713b DEV-8034. Added variables to Log table. Catching an exception when the length is larger than the table can handle.
+ 5 files changed, 289 insertions(+), 19 deletions(-)
+8123fec License Generator
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+c524061 Asp Upgrade Copy
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+1d3f933 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+da00869 Inquisite Search Change Log
+ 2 files changed, 29 insertions(+), 15 deletions(-)
+c1426ee Inquisite Search Search page
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+df1afa9 More delphi code for generating license and serial numbers
+ 5 files changed, 124 insertions(+), 144 deletions(-)
+d9db184 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+e4440a4 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+ac813c9 Regarding DEV-8034. Added userName to Error output on Admin Log. Ticket Closed
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+a624f1e Updates Keepass file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+7db37b5 Adjusts styling for environment in header (DEV-7740)
+ 3 files changed, 7 insertions(+), 6 deletions(-)
+b5af87f Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+d1612a0 onboard stufffs
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+620edde Additional Logs have been added to Databese, allowing for connection with User table to who ran Query. Query ran will also report under Admin->log.
+ 5 files changed, 8190 insertions(+), 4763 deletions(-)
+f6b58be Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+f688e4a onboarding page
+ 1 file changed, 58 insertions(+), 55 deletions(-)
+69a7ddd Fast Save
+ 3 files changed, 289 insertions(+), 520 deletions(-)
+0802af5 Merge branch 'DEV-8034' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-8034
+3e4611a Current Changes for DEV-8034. Test added for someother ticket.
+ 8 files changed, 37 insertions(+), 11 deletions(-)
+79a4601 Resolved RM-14265. Stream was not overwriting old file and there was no deletion for old file. Fixed by deleting old DefaultLogo and created new one everytime a new default is uploaded.
+ 1 file changed, 24 insertions(+), 26 deletions(-)
+ec83efc Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+c3c0ec2 Documentation for concrete repos
+ 8 files changed, 170 insertions(+), 131 deletions(-)
+d958934 Edit image
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+167b796 Fixes RM-14246. Did not need GetDtResultPage.
+ 1 file changed, 21 insertions(+), 16 deletions(-)
+ace2857 Updated documentation for concrete repositories and also refactored code throughout repositories
+ 10 files changed, 125 insertions(+), 142 deletions(-)
+031e295 Partial fix for RM-14224.
+ 5 files changed, 203 insertions(+), 179 deletions(-)
+87c3fa0 Comments
+ 10 files changed, 11 insertions(+), 19 deletions(-)
+6d54a8d Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+f4f1850 Quick js syntax fix
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+5fabf00 j;ifggre
+ 1 file changed, 6 deletions(-)
+c0a8a41 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DEV-7727-upgrade-bootstrap-to-version-3
+19245f8 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+d721c8d Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+b1dba78 Dev-7741 text boxes dynamic
+ 1 file changed, 5 insertions(+)
+cc25a34 Fixes: RM-14234
+ 3 files changed, 64 insertions(+), 68 deletions(-)
+574eea9 Resolve DEV-7980. Added additional text to confirm dialog.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+67d5880 Resolve DEV-7740. AppSettings have been added for EnvironmentName and EnvironmentColor allowing for differentiation between which MrB page you're viewing.
+ 4 files changed, 40 insertions(+)
+b9badbf Updates the password for Beta Remote Access
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+41a7dac Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+9651697 Fix for RM-14236
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+190f773 More delphi translated
+ 2 files changed, 61 insertions(+), 9 deletions(-)
+2e92b83 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+0fd4436 Continued documentation for concrete repositories
+ 7 files changed, 213 insertions(+), 69 deletions(-)
+83b0e0b Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+07db3cd Fixes 500 error on Query Results Page
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+e4c6ec6 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+2ebe2a7 More pascal for mark to look at later
+ 4 files changed, 283 insertions(+), 26 deletions(-)
+41edd23 Merge branch 'RM-13947-mrb-queries-not-working-as-expe' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+2e3a77e Partial fix of RM-13947.
+ 10 files changed, 111 insertions(+), 73 deletions(-)
+d24d8bb Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-13947-mrb-queries-not-working-as-expe
+29889b8 Documentation also continued owrk on delphi code for License Key generation
+ 11 files changed, 335 insertions(+), 193 deletions(-)
+31be7da Continued documentation for Repositories
+ 4 files changed, 81 insertions(+), 16 deletions(-)
+8847d0f Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+59653e8 Style fixes.
+ 2 files changed, 322 insertions(+), 327 deletions(-)
+be87d02 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+a05d24d Gathering script for restore
+ 2 files changed, 9 insertions(+), 1 deletion(-)
+7b56d12 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+347dd0a HOTFIX: Fixes the inability to accept pending queries on Demo.
+ 3 files changed, 39 insertions(+), 28 deletions(-)
+bf98111 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+a36050c HOT FIX
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+2cf839d Resolved RM-14191. TempData inside of Inquisite Editor controller was being deleted between rquest without being update. By request two TempData would no longer contain any company listings.
+ 1 file changed, 2 insertions(+)
+cf7607f Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+3488fd8 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+5c169a6 Merge branch 'RM-14008-mrb-redirected-back-to-login-pa' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+2a0016e Good push for logging on database backup and restore
+ 5 files changed, 12 insertions(+), 7 deletions(-)
+abf4f5b Resolved RM-14189. Added contional for CompanyNameList on Index.html for CustomerDashboard to show Select Company when no company has been chosen.
+ 1 file changed, 12 insertions(+), 3 deletions(-)
+d37b71f Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into RM-13947-mrb-queries-not-working-as-expe
+f1262d8 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+1149cfd Refactored code from smoke tests jan 7-15
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+9e4bf9d Fixed and added tests for RM-14206.
+ 5 files changed, 36 insertions(+), 30 deletions(-)
+32cf6df Setting session back to normal.
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+5beae00 Fixed RM-14008. Parts of the session are stored in localstorage.
+ 2 files changed, 212 insertions(+), 191 deletions(-)
+17fed40 Removes whitespace in HomeController (testing git setup)
+ 1 file changed, 3 deletions(-)
+484c612 added title dynamics to run query.. to help distinguish between the tabs
+ 1 file changed, 84 insertions(+), 70 deletions(-)
+3823734 More documentation for AllegianceRepository
+ 1 file changed, 194 insertions(+), 8 deletions(-)
+4d178f7 Merge branch 'DevMrb' of https://bitbucket.org/allegiance_scm/mrbigglesworth into DevMrb
+90c8ba1 Merge branch 'RM-13971' into DevMrb
+e836d11 Completes RM-13971
+ 2 files changed, 4 insertions(+), 21 deletions(-)
+f07f2d9 validation query has tab first abilities
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e2e5171 added back the ability to run the query before the validation query
+ 1 file changed, 1 deletion(-)
+48a2727 Merge branch 'DevMrb' of bitbucket.org:allegiance_scm/mrbigglesworth into DevMrb
+cf3eb02 Re-re-named the inquisitexmllogging
+ 8 files changed, 24 insertions(+), 26 deletions(-)
+f88e5b8 fixed typo on web config changed .Allegiance to .allegiance
+ 1 file changed, 1 insertion(+), 1 deletion(-)

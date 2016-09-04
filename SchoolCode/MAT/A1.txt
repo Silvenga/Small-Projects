@@ -1,0 +1,3 @@
+We use the concepts found in discrete structures heavily in computing. We use the study of complexity when designing new algorithms, and comparing pre-existing ones. For example, quick sort and merge sort are commonly used sorting algorithms. Both function differently on different datasets and hard to compare statistically. However, through what we get through discrete structures, the industry is able to abstractly compare merge sort as the superior option even though intuitively the options are similar. Discrete structures also brings us now common data structures such as graphs which helps considerably with modeling real world information in efficient ways. 
+
+Source: http://www.cs.cornell.edu/~rafael/discmath.pdf

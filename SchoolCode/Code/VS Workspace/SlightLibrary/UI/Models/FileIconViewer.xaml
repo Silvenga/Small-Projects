@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="SlightLibrary.UI.Models.FileIconViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:SlightLibrary.Converters"
+             x:Name="UserControl">
+    <UserControl.Resources>
+        <converters:FileToIconConverter x:Key="Fic" />
+    </UserControl.Resources>
+    <Grid>
+        <Image x:Name="Image"
+               Width="{Binding ElementName=UserControl,
+                               Path=Width}"
+               Height="{Binding ElementName=Image,
+                                Path=Width}">
+            <Image.Source>
+                <MultiBinding Converter="{StaticResource Fic}">
+                    <Binding />
+                    <Binding ElementName="Image" Path="Width" />
+                </MultiBinding>
+            </Image.Source>
+        </Image>
+    </Grid>
+</UserControl>

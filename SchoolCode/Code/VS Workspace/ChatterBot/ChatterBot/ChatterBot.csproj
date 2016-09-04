@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5DD733B-7E94-4995-9234-F4726FEA0181}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChatterBot</RootNamespace>
+    <AssemblyName>ChatterBot</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actors\Chatter.cs" />
+    <Compile Include="Actors\Grammar\CollectionHelper.cs" />
+    <Compile Include="Actors\GraphHelper.cs" />
+    <Compile Include="Models\Abstract\NonDeterministicState.cs" />
+    <Compile Include="Models\Abstract\State.cs" />
+    <Compile Include="Models\Grammar\Article.cs" />
+    <Compile Include="Actors\Grammar\GrammarHelper.cs" />
+    <Compile Include="Models\Grammar\Noun.cs" />
+    <Compile Include="Models\Grammar\NounPhrase.cs" />
+    <Compile Include="Models\Grammar\Preposition.cs" />
+    <Compile Include="Models\Grammar\Pronoun.cs" />
+    <Compile Include="Models\Grammar\Sentence.cs" />
+    <Compile Include="Actors\Grammar\StackParser.cs" />
+    <Compile Include="Models\Grammar\Token.cs" />
+    <Compile Include="Models\Grammar\Verb.cs" />
+    <Compile Include="Models\Grammar\VerbPhrase.cs" />
+    <Compile Include="Models\Graph\Edge.cs" />
+    <Compile Include="Models\Graph\Graph.cs" />
+    <Compile Include="Models\Graph\Node.cs" />
+    <Compile Include="Models\SM\RegexSM.cs" />
+    <Compile Include="Models\SM\GreetingsSM.cs" />
+    <Compile Include="Models\SM\HiStateMachine.cs" />
+    <Compile Include="Models\SM\NonDeterministicStateMachine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="map.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

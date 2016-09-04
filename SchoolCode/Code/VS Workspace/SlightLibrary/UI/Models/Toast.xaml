@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="SlightLibrary.UI.Toast"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Opacity="0">
+    <Grid x:Name="Grid"
+          HorizontalAlignment="Center"
+          VerticalAlignment="Center">
+        <Label HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Content="{Binding ElementName=MessageLabel,
+                                 Path=Content}"
+               Foreground="White"
+               Padding="5">
+            <Label.Effect>
+                <BlurEffect Radius="10" RenderingBias="Performance" />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="MessageLabel"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Content="Message"
+               Foreground="Black"
+               Padding="5" />
+    </Grid>
+</UserControl>

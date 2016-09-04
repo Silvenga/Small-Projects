@@ -1,0 +1,170 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<link rel="stylesheet" href="@Url.Content("~/Content/Styles/normalize.css")">
+<link rel="stylesheet" href="@Url.Content("~/Content/Styles/bootstrap.css")">
+
+<script src="@Url.Content("~/Content/Scripts/jquery-1.10.2.js")"></script>
+<script src="@Url.Content("~/Content/Scripts/handlebars-v2.0.0.js")"></script>
+<script src="@Url.Content("~/Content/Scripts/ember-1.9.1.js")"></script>
+<script src="@Url.Content("~/Content/Scripts/bootstrap.js")"></script>
+<script src="@Url.Content("~/Content/Scripts/moment.js")"></script>
+
+
+<div class="container" id="app"></div>
+
+
+<script type="text/x-handlebars" id="application">
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <h1>{{#link-to "index"}}Hello From Ember!{{/link-to}}</h1>
+
+            <hr />
+
+            {{outlet}}
+
+        </div>
+    </div>
+
+</script>
+<script id="application">
+
+    var bauseUrl = "";
+
+    window.App = Ember.Application.create({
+        rootElement: "#app",
+        LOG_TRANSITIONS: true
+    });
+
+    App.Router.map(function () {
+
+        this.resource("user", {
+            path: "/user/:login"
+        },
+        function () {
+
+            this.resource("repos");
+        });
+    });
+
+</script>
+
+<script type="text/x-handlebars" id="index">
+
+    <p>Welcome!</p>
+
+    <ul>
+        {{#each dev in controller}}
+        <li>
+            {{#link-to "user" dev.login}}{{dev.name}}{{/link-to}}
+        </li>
+        {{/each}}
+
+    </ul>
+
+</script>
+<script type="text/javascript" id="index">
+
+    var devs = [
+    {
+        name: "Mark Lopez",
+        login: "Silvenga"
+    },
+    {
+        name: "Rob Conery",
+        login: "robconery"
+    }
+    ];
+
+    App.IndexRoute = Ember.Route.extend({
+        model: function () {
+            return devs;
+        }
+    });
+
+    App.IndexController = Ember.ArrayController.extend({
+        renderedOn: function () {
+            return new Date();
+        }.property(),
+        actions: {
+            clicked: function () {
+                alert("I've been clicked");
+            }
+        }
+    });
+
+</script>
+
+<script type="text/x-handlebars" id="user">
+
+    <p>Welcome to {{name}}'s Github</p>
+
+    <img {{bind-attr src="avatar_url"}} style="width: 140px" />
+
+    <hr />
+
+    {{outlet}}
+
+</script>
+<script type="text/javascript" id="user">
+
+    App.UserRoute = Ember.Route.extend({
+        model: function (params) {
+
+            return Ember.$.getJSON("https://api.github.com/users/" + params.login);
+        }
+    });
+
+</script>
+
+
+<script type="text/x-handlebars" id="user/index">
+
+    <p>Welcome to {{name}}'s Github</p>
+
+    <p>This is the user page of {{name}}, aka {{login}}</p>
+    <p>{{#link-to "repos" login}}Repos{{/link-to}}</p>
+
+</script>
+<script type="text/javascript" id="user/index">
+
+    App.UserIndexRoute = Ember.Route.extend({
+        model: function () {
+
+            return this.modelFor("user");
+        }
+    });
+
+</script>
+
+<script type="text/x-handlebars" id="repos">
+
+    <h1>Here be repos for {{name}}</h1>
+
+    <table class="table table-striped">
+        {{#each repo in controller}}
+        <tr>
+            <td>
+                {{repo.name}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+
+</script>
+<script type="text/javascript" id="repos">
+
+    App.ReposRoute = Ember.Route.extend({
+        model: function () {
+
+            var user = this.modelFor("user");
+
+            return Ember.$.getJSON(user.repos_url);
+        }
+    });
+
+</script>
