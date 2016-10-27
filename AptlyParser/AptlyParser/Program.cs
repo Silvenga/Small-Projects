@@ -1,15 +1,17 @@
-﻿namespace AptlyParser
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+using AptlyParser.Tests;
+
+using RestSharp;
+
+namespace AptlyParser
 {
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-
-    using RestSharp;
-
-    static class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ReplaceVersions(args[0], args[1], args[2], args[3]);
         }
@@ -22,14 +24,14 @@
             var list = client.Execute<List<string>>(request).Data;
 
             var packages = list.Select(x => x.Split())
-                .GroupBy(x => x[1])
-                .Select(g => new
-                {
-                    Name = g.Key,
-                    Versions = g.Select(x => x[2]).OrderBy(x => x).Distinct(),
-                    Archs = g.Select(x => x[0].Substring(1)).Distinct().OrderBy(x => x)
-                })
-                .OrderBy(x => x.Name);
+                                .GroupBy(x => x[1])
+                                .Select(g => new
+                                {
+                                    Name = g.Key,
+                                    Versions = g.Select(x => x[2]).OrderBy(x => x, new VersionComparer()).Distinct(),
+                                    Archs = g.Select(x => x[0].Substring(1)).Distinct().OrderBy(x => x)
+                                })
+                                .OrderBy(x => x.Name);
             var str = "";
 
             foreach (var package in packages)

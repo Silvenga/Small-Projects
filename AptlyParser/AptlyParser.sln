@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AptlyParser", "AptlyParser\AptlyParser.csproj", "{1B6D6176-2955-452F-B9F4-C7A030E5700D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AptlyParser.Tests", "AptlyParser.Tests\AptlyParser.Tests.csproj", "{F67BDD5F-8528-4484-B97F-3DA3D619C7B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1B6D6176-2955-452F-B9F4-C7A030E5700D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B6D6176-2955-452F-B9F4-C7A030E5700D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B6D6176-2955-452F-B9F4-C7A030E5700D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67BDD5F-8528-4484-B97F-3DA3D619C7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67BDD5F-8528-4484-B97F-3DA3D619C7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67BDD5F-8528-4484-B97F-3DA3D619C7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67BDD5F-8528-4484-B97F-3DA3D619C7B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
