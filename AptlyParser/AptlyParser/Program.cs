@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-using AptlyParser.Tests;
-
 using RestSharp;
 
 namespace AptlyParser
@@ -28,7 +26,7 @@ namespace AptlyParser
                                 .Select(g => new
                                 {
                                     Name = g.Key,
-                                    Versions = g.Select(x => x[2]).OrderBy(x => x, new VersionComparer()).Distinct(),
+                                    Versions = g.Select(x => x[2]).OrderBy(x => x, new VersionComparer()).Distinct().Reverse(),
                                     Archs = g.Select(x => x[0].Substring(1)).Distinct().OrderBy(x => x)
                                 })
                                 .OrderBy(x => x.Name);

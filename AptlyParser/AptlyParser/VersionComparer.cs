@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AptlyParser.Tests
+namespace AptlyParser
 {
     public class VersionComparer : IComparer<string>
     {
@@ -19,20 +19,13 @@ namespace AptlyParser.Tests
 
             for (var i = 0; i < minLength; i++)
             {
-                int result;
-
                 int a;
                 var b = 0;
 
                 var success = int.TryParse(xParts[i], out a) && int.TryParse(yParts[i], out b);
-                if (!success)
-                {
-                    result = string.Compare(yParts[i], xParts[i], StringComparison.OrdinalIgnoreCase);
-                }
-                else
-                {
-                    result = a.CompareTo(b);
-                }
+                var result = success
+                    ? a.CompareTo(b)
+                    : string.Compare(yParts[i], xParts[i], StringComparison.OrdinalIgnoreCase);
 
                 if (result != 0)
                 {
